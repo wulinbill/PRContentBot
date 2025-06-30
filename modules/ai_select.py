@@ -1,3 +1,5 @@
+from modules.log_config import setup_logger
+logger = setup_logger('ai_select')
 import openai
 import os
 

@@ -1,3 +1,5 @@
+from modules.log_config import setup_logger
+logger = setup_logger('fetch_social')
 import snscrape.modules.twitter as sntwitter
 import requests
 

@@ -1,3 +1,5 @@
+from modules.log_config import setup_logger
+logger = setup_logger('gen_article')
 import pandas as pd
 import openai
 from docx import Document

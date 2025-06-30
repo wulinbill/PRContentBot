@@ -1,8 +1,2 @@
-__pycache__/
-*.py[cod]
-venv/
-env/
-.DS_Store
-output/
-input/articles_selected.xlsx
-.env
+
+logs/

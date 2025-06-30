@@ -1,3 +1,5 @@
+from modules.log_config import setup_logger
+logger = setup_logger('fetch_news')
 import feedparser
 
 def fetch_news_articles():
